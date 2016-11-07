@@ -2,6 +2,7 @@
 
 if [ "$(uname -s)" = "Darwin" ]; then
   brew install coreutils
+  brew install tmux
 fi
 
 # Get current dir (so run this script from anywhere)
