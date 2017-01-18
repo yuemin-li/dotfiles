@@ -21,6 +21,11 @@ else
   return # `exit 1` would quit the shell itself
 fi
 
+# bash-completion
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+  . $(brew --prefix)/etc/bash_completion
+fi
+
 # Finally we can source the dotfiles (order matters)
 
 for DOTFILE in "$DOTFILES_DIR"/system/.{function,function_*,path,env,inputrc,alias,completion,grep,prompt,nvm,rvm,custom}; do
