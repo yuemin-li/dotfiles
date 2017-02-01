@@ -4,3 +4,8 @@ alias docker_cleanup='docker rmi $(docker images -aqf dangling=true)'
 
 # json
 alias prettyjson='python -m json.tool'
+
+# vagrant_box_path
+# alias toolkit='cd /localdisk/vagrant/Vagrant_toolkit'
+# alias multihost='cd /localdisk/vagrant/multihost'
+# alias playground='cd /localdisk/vagrant/playground'

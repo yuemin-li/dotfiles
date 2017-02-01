@@ -21,7 +21,7 @@ else
   return # `exit 1` would quit the shell itself
 fi
 
-# bash-completion
+# Bash completion
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
   . $(brew --prefix)/etc/bash_completion
 fi
