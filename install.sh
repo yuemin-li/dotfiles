@@ -4,6 +4,7 @@ if [ "$(uname -s)" = "Darwin" ]; then
   brew install coreutils
   brew install tmux
   brew install bash-completion
+  brew install httpstat
 fi
 
 ### may or may not need. I have issue with my newMac with bash-completion not working.###
